@@ -1,0 +1,94 @@
+.saleWrapper {
+    display: flex;
+    flex-direction: row;
+
+    .newYearSale {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 637px;
+        height: 570px;
+        background-color: #191919;
+        align-items: center;
+        border-radius: 10px;
+
+        .textNewYearSale {
+            margin-top: 74px;
+
+            .newYear {
+                color: #6C3EB8;
+                font-size: 70px;
+                font-weight: 300;
+                line-height: 85px;
+                text-align: center;
+            }
+
+            .sale {
+                color: #6C3EB8;
+                font-size: 150px;
+                font-weight: 300;
+                line-height: 182px;
+                text-align: center;
+                margin-top: -10px;
+            }
+        }
+
+        .seeMoreButton {
+            background-color: #6C3EB8;
+            width: 138px;
+            height: 42px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 27px;
+
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        .sneakersImg {
+            width: 204px;
+            height: 170px;
+            position: absolute;
+            top: 310px;
+            left: -25px;
+        }
+
+        .pspImg {
+            width: 269px;
+            height: 151px;
+            position: absolute;
+            top: 445px;
+            left: 385px;
+        }
+    }
+
+
+
+    .saveMoney {
+        width: 50%;
+        background: url('../../assets/images/santa.svg');
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .text {
+            color: #212123;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .fifty {
+            color: #6C3EB8;
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 24px;
+            text-align: center;
+
+        }
+    }
+}

@@ -10,7 +10,7 @@ const Ads = () => {
 			<div className={styles.bestsellerWrapper}>
 				<div className={styles.bestseller}>THE BESTSELLER OF 2024</div>
 				<div className={styles.pcName}>LENNON R2D2 <br /> WITH NVIDIA 5090 TI</div>
-				<button className={styles.shopNowButton}>Shop Now</button>
+				<button onClick={() => console.log('123')} className={styles.shopNowButton}>Shop Now</button>
 			</div>
 			<img
 				className={styles.pcImage}
