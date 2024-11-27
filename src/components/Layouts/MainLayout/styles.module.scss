@@ -1,0 +1,10 @@
+.mainLayout {
+    background-color: #212123;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mainLayoutWrapper {
+        width: 1274px;
+    }
+}

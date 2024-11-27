@@ -1,0 +1,60 @@
+.adsWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 950px;
+    background-color: #191919;
+
+    .bigSale {
+        display: flex;
+        justify-content: center;
+        color: #616E74;
+        font-weight: 900;
+        font-size: 125px;
+        line-height: 145px;
+    }
+
+    .bestsellerWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-top: 10px;
+        min-height: 183px;
+        width: 481px;
+
+        .bestseller {
+            color: #616E74;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 20px;
+        }
+
+        .pcName {
+            color: #F6F6F7;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 51px;
+        }
+
+        .shopNowButton {
+            background-color: #6C3EB8;
+            color: #FFFFFF;
+            width: 125px;
+            height: 38px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+        }
+    }
+
+    .pcImage {
+        position: absolute;
+        left: 420px;
+        top: 85px;
+        width: 462px;
+        height: 359px;
+    }
+}
