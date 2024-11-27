@@ -3,7 +3,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    padding: 23px 19px;
+    padding: 22px 24px;
     background-color: #191919;
     border-radius: 10px;
     margin-top: 20px;
@@ -11,6 +11,7 @@
     .logo {
         img {
             width: 130px;
+            margin-top: 6px;
         }
 
     }
@@ -18,8 +19,10 @@
     .allRightsReserved {
         display: flex;
         flex-direction: row;
+        text-align: center;
         align-items: center;
         color: #576067;
+        margin-left: -70px;
     }
 
     .socialMedia {
