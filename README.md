@@ -3,3 +3,5 @@
 ## Технологии: 
 * **ReactJS 18**
 * **Redux Toolkit**
+* **Typescript**
+* **SCSS**
