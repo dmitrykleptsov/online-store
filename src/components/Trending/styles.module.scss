@@ -1,0 +1,104 @@
+.trendingWrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #191919;
+
+    .trendingText{
+        margin: 25px auto;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+    }
+
+    .itemsList {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1230px;
+
+        .item {
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: #212123;
+
+            .itemInfo {
+                display: flex;
+                flex-direction: column;
+                margin: 10px 12px;
+
+                .itemName {
+                    display: flex;
+                    flex-direction: column;
+
+                    .title {
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 18px;
+                    }
+
+                    .type {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 14px;
+                        color: #B8B8B8;
+                        margin-top: 8px;
+                    }
+                }
+
+                .itemDescription {
+                    justify-content: space-between;
+                    margin-top: 28px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items:center;
+
+                    .price {
+                        display: flex;
+                        align-items: center;
+
+                        .salePrice {
+                            font-size: 23px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            color: #6C3EB8;
+                        }
+                        
+                        .defaultPrice {
+                            color: #576067;
+                            margin-left: 5px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 15px;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                    .purchaseNumber {
+                        color: #576067;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .trendingButton {
+        margin: 24px auto;
+        background-color: #6C3EB8;
+        width: 138px;
+        height: 42px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 20px;
+        line-height: 19px;
+        font-weight: 400;
+    }   
+}

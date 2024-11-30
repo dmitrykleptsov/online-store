@@ -1,4 +1,4 @@
-.footerWrapper {
+.footer {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -8,7 +8,7 @@
     border-radius: 10px;
     margin-top: 20px;
 
-    .logo {
+    .footerLogo {
         img {
             width: 130px;
             margin-top: 6px;
@@ -16,7 +16,7 @@
 
     }
 
-    .allRightsReserved {
+    .footerAllRightsReserved {
         display: flex;
         flex-direction: row;
         text-align: center;
@@ -25,7 +25,7 @@
         margin-left: -70px;
     }
 
-    .socialMedia {
+    .footerSocialMedia {
 
         display: flex;
         flex-direction: row;

@@ -1,23 +1,24 @@
 import React from 'react'
 
 import styles from './styles.module.scss'
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
-        <div className={styles.sidebarWrapper}>
-            <div className={styles.categories}>
+        <div className={styles.sidebar}>
+            <nav className={styles.sidebarCategories}>
                 <h1>CATEGORIES</h1>
-                <a href='/' >Computers</a>
-                <a href='/' >Clothes</a>
-                <a href='/' >Shoes</a>
-                <a href='/' >Furniture</a>
-                <a href='/' >Cosmetics</a>
-                <a href='/' >Travel</a>
-                <a href='/' >Automotive</a>
-            </div>
-            <div className={styles.helpFooter}>
-                <a href='/'>Help</a>
-                <a href='/' className={styles.terms}>Terms & Conditions</a>
+                <Link to='/'>Computers</Link>
+                <Link to='/'>Clothes</Link>
+                <Link to='/'>Shoes</Link>
+                <Link to='/'>Furniture</Link>
+                <Link to='/'>Cosmetics</Link>
+                <Link to='/'>Travel</Link>
+                <Link to='/'>Automotive</Link>
+            </nav>
+            <div className={styles.sidebarHelpTerms}>
+                <Link to='/'>Help</Link>
+                <Link to='/' className={styles.terms}>Terms & Conditions</Link>
             </div>
         </div>
     )

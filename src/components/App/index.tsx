@@ -8,6 +8,7 @@ import NewYearSale from '../../components/Sale/index'
 // import Home from '../Home'
 import MainLayout from '../Layouts/MainLayout'
 import Ads from '../Ads/index'
+import Trending from '../../components/Trending'
 
 import styles from './styles.module.scss'
 
@@ -20,8 +21,8 @@ const App = () => {
 				<Ads />
 				<AppRoutes />
 			</div>
+			<Trending />
 			<NewYearSale />
-
 			<Footer />
 		</MainLayout>
 

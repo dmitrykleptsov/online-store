@@ -12,12 +12,10 @@ import Cart from '../../assets/images/cart.svg'
 
 const Header = () => {
 	return (
-		<div className={styles.header}>
-			<div className={styles.logo}>
-				<Link to={ROUTES.HOME}>
-					<img src={LOGO} alt="Tapo4ki-logo" />
-				</Link>
-			</div>
+		<header className={styles.header}>
+			<Link to='/' className={styles.logo}>
+				<img src={LOGO} alt="Tapo4ki-logo" />
+			</Link>
 
 			<div className={styles.info}>
 				<div className={styles.user}>
@@ -40,7 +38,8 @@ const Header = () => {
 								autoComplete='off'
 								onChange={() => { }}
 								value='' />
-						</div>					</div>
+						</div>
+					</div>
 				</form>
 				<div className={styles.cartWrapper}>
 					<div className={styles.favorite}>
@@ -51,7 +50,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 	)
 }
 

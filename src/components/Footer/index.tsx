@@ -11,29 +11,34 @@ import ROUTES from 'src/utils/routes'
 
 const Footer = () => {
     return (
-        <div className={styles.footerWrapper}>
-            <div className={styles.logo}>
+        <section className={styles.footer}>
+            <div className={styles.footerLogo}>
                 <Link to={ROUTES.HOME}>
                     <img src={logo} alt='main-logo' />
                 </Link>
             </div>
-            <div className={styles.allRightsReserved}>
+            <span className={styles.footerAllRightsReserved}>
                 All rights reserved®
-            </div>
-            <div className={styles.socialMedia}>
+            </span>
+            <div className={styles.footerSocialMedia}>
                 <div className={styles.instagram}>
-                    <Link to='https://www.instagram.com/dima_kapkan?igsh=NTc4MTIwNjQ2YQ=='>
+                    <Link 
+                        to='https://www.instagram.com/dima_kapkan?igsh=NTc4MTIwNjQ2YQ=='
+                        target='_blank'
+                        rel='noreferrer'>
                         <img src={igLogo} alt="ig-logo" />
                     </Link>
                 </div>
                 <div className={styles.telegram}>
-                    <Link to='https://t.me/lantanaxxx'>
+                    <Link 
+                        to='https://t.me/lantanaxxx'
+                        target='_blank'
+                        rel='noreferrer'>
                         <img src={tgLogo} alt="tg-logo" />
                     </Link>
                 </div>
             </div>
-
-        </div>
+        </section>
     )
 }
 

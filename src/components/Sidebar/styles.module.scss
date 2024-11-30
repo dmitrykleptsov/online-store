@@ -1,4 +1,4 @@
-.sidebarWrapper {
+.sidebar {
     display: flex;
     flex-direction: column;
     width: 304px;
@@ -6,7 +6,7 @@
     border-radius: 10px;
     background-color: #191919;
 
-    .categories {
+    .sidebarCategories {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -33,7 +33,7 @@
         }
     }
 
-    .helpFooter {
+    .sidebarHelpTerms {
         color: #576067;
         display: flex;
         flex-direction: row;
